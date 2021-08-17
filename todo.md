@@ -1,0 +1,39 @@
+# Consignas y tareas a realizar
+
+- [x] Configuración de `tabs = 2 espacios`
+- [x] Añadir la extensión de [lint de Scala](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
+- [x] Consigna 1
+  - [x] Arreglar estilo del código
+- [x] Consigna 2
+    - [x] Revisar
+    - [x] Plantear una nueva arquitectura
+    - [x] Agregar diagrama de la nueva arquitectura
+- [x] Consigna 3
+  - [x] Revisar
+- [x] Consigna 4
+  - [x] Revisar
+  - [x] Validar si es necesario cambiar `Give_Parse` a `GiveToParse`, de ser así, cambiarlo
+    - [x] Cambiarlo en `Supervisor.scala`
+    - [x] Cambiarlo en `Request_Parse.scala`
+  - [x] Validar si es necesario cambiar `Feed_Receive` a `SendFeed`, de ser así, cambiarlo
+    - [x] Cambiarlo en `Supervisor.scala`
+    - [x] Cambiarlo en `Request_Parse.scala`
+  - [x] Validar si es necesario cambiar `Request_Parse` (tanto archivo como en el código) a `RequestParse`, de ser así, cambiarlo
+    - [x] Cambiarlo en `Request_Parse.scala`
+    - [x] Cambiarlo en `Site.scala`
+- [x] Consigna 5
+- [?] Encontrar método para validación de los mensajes
+- Puntos estrella
+    - [x] Suscripción a Reddit/JSON*
+      - [x] Arreglar el bug con reddit
+      - [x] Arreglar el parseo cuando los feeds son vacíos
+    - [ ] Conteo de Entidades Nombradas*
+    - [ ] Guardar datos a disco**
+    - [ ] Espera de proceso de datos**
+    - [ ] Conexión con el mundo exterior vía REST API***
+- [x] Redactar el informe
+  - [x] Añadir las imágenes de las arquitecturas
+  - [x] Explicar los problemas con la/las arquitectura
+- [x] Añadir la tag a la branch de `master`
+  - [x] git tag -a lab-3 -m "Entrega Laboratorio 3"
+- [-] Añadir branches para los puntos estrellas
